@@ -1,5 +1,5 @@
 # Start from a azure ml mlflow inference base image
-FROM mcr.microsoft.com/azureml/mlflow-ubuntu18.04-py37-cpu-inference:20220110.v1
+FROM mcr.microsoft.com/azureml/mlflow-ubuntu18.04-py37-cpu-inference:20230306.v3
 
 # copy the conda.yaml inside the container
 COPY conda.yaml /tmp/conda.yaml
