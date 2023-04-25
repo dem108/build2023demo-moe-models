@@ -7,7 +7,7 @@ model:
 environment_variables:
   MLFLOW_MODEL_FOLDER: model
 environment: 
-  image: crprodwspl.azurecr.io/repo/mlflow:v1
+  image: crprodwspl.azurecr.io/repo/img:v1
   inference_config:
     liveness_route:
       port: 5001
